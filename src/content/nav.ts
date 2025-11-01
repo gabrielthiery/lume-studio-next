@@ -1,10 +1,10 @@
 export const NAV_LINKS = [
   {
-    name: "Home",
+    name: "Accueil",
     href: "/",
   },
   {
-    name: "About",
+    name: "À propos",
     href: "#about",
   },
   {

@@ -8,20 +8,16 @@ import Link from "next/link";
 
 export default function ServicesSection2() {
   return (
-    <section className="py-16 md:py-32" id="services">
-      <div className="mx-auto max-w-5xl space-y-8 px-6 md:space-y-16">
+    <section className="py-20 md:py-32" id="services">
+      <div className="mx-auto max-w-6xl space-y-12 px-6 md:space-y-20">
         <div className="relative z-10 mx-auto max-w-xl space-y-6 text-center">
           <ScrollView>
             <h2 className="text-4xl font-medium lg:text-5xl">
-              Design That Works for You
+              Services vidéo sur mesure — de l'idée à l'écran
             </h2>
           </ScrollView>
           <ScrollView delay={0.2}>
             <p>
-              At Lume Studio, we create designs that are more than just visually
-              appealing. They&apos;re built to solve problems, connect with
-              audience, and drive results. <br /> Whether you’re starting fresh
-              or refining your existing identity, <br /> we’ve got you covered.
             </p>
           </ScrollView>
         </div>
@@ -70,7 +66,7 @@ export default function ServicesSection2() {
                     <CustomCursorElement
                       cursor={
                         <div className="text-zinc-950 text-lg font-medium">
-                          View
+                          Voir
                         </div>
                       }
                     >

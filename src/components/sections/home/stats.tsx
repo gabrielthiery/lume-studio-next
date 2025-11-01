@@ -4,19 +4,16 @@ import { motion } from "motion/react";
 
 export default function StatsSection() {
   return (
-    <section className="py-12 md:py-20" id="stats">
-      <div className="mx-auto max-w-5xl space-y-8 px-6 md:space-y-16">
+    <section className="py-20 md:py-28" id="stats">
+      <div className="mx-auto max-w-5xl space-y-12 px-6">
         <div className="relative z-10 mx-auto max-w-xl space-y-6 text-center">
           <ScrollView>
             <h2 className="text-4xl font-medium lg:text-5xl">
-              Driven by Design. Backed by Results.
+              Chiffres clés
             </h2>
           </ScrollView>
           <ScrollView delay={0.2}>
             <p>
-              At Lume Studio, we don’t just make things look good — we create
-              thoughtful design experiences that help businesses grow, connect
-              with their audience, and stand out in a crowded digital world.
             </p>
           </ScrollView>
         </div>
@@ -33,8 +30,8 @@ export default function StatsSection() {
               }}
               className="space-y-4"
             >
-              <div className="text-5xl font-bold">+120</div>
-              <p>Projects Launched</p>
+              <div className="text-5xl font-bold">26</div>
+              <p>projets réalisés</p>
             </motion.div>
             <motion.div
               variants={{
@@ -47,8 +44,8 @@ export default function StatsSection() {
               }}
               className="space-y-4"
             >
-              <div className="text-5xl font-bold">40%</div>
-              <p>Average Client Growth</p>
+              <div className="text-5xl font-bold">8</div>
+              <p>clients accompagnés</p>
             </motion.div>
             <motion.div
               variants={{
@@ -61,8 +58,8 @@ export default function StatsSection() {
               }}
               className="space-y-4"
             >
-              <div className="text-5xl font-bold">5+</div>
-              <p>Years in the Game</p>
+              <div className="text-5xl font-bold">3</div>
+              <p>ans d'expérience</p>
             </motion.div>
           </div>
         </ScrollView>

@@ -4,67 +4,62 @@ import Image from "next/image";
 
 const ourPrinciples = [
   {
-    title: "Creativity with Purpose",
+    title: "Créativité au service du sens",
     description:
-      "Our designs aren’t just pretty; they’re built to solve problems and make an impact.",
+      "Une vidéo n'est pas qu'une image : c'est une intention, une histoire, une émotion. Je conçois des contenus qui marquent et reflètent votre identité.",
   },
   {
-    title: "Collaboration is Key",
+    title: "Collaboration & écoute",
     description:
-      "We work with you, not just for you. Great ideas come from teamwork.",
+      "Votre vision guide la création. Je vous accompagne à chaque étape pour transformer vos idées en images.",
   },
 
   {
-    title: "Honest & Transparent",
+    title: "Transparence & rigueur",
     description:
-      "No confusing jargon or hidden fees. Just clear communication and real results.",
+      "Processus clair, échanges fluides et tarifs transparents pour une collaboration sereine et efficace.",
   },
   {
-    title: "Details Matter",
+    title: "Exigence technique",
     description:
-      "The little things make a big difference. We sweat the small stuff, so you don’t have to.",
+      "Cadrage, lumière, montage, couleur — chaque détail compte. Mon objectif : sublimer vos images et transmettre votre message avec précision.",
   },
 ];
 
 export default function ContentSection() {
   return (
-    <section className="py-16 md:py-32" id="about">
-      <div className="mx-auto max-w-5xl space-y-8 px-6 md:space-y-12">
+    <section className="py-20 md:py-32" id="about">
+      <div className="mx-auto max-w-5xl space-y-12 px-6 md:space-y-16">
         <div className="mx-auto max-w-xl space-y-6 text-center md:space-y-12">
           <ScrollView>
             <h2 className="text-balance text-4xl font-medium lg:text-5xl">
-              About Us
+              Faire rayonner vos idées en images
             </h2>
           </ScrollView>
           <ScrollView>
             <p>
-              Lume Studio was born from a simple idea—great design should do
-              more than just look good; it should make an impact. What started
-              as a passion for creativity turned into a full-fledged design
-              agency dedicated to helping brands tell their stories, connect
-              with audiences, and stand out in a crowded world.
+              Je suis Alexandre Thiery, vidéaste professionnel à Paris.
+              <br /><br />
+              Depuis 3 ans, j'accompagne marques, artistes et entreprises dans la création de contenu vidéo à forte valeur émotionnelle et narrative.
+              <br /><br />
+              Avec 26 projets réalisés, je maîtrise chaque étape de production — cadrage, montage, étalonnage — pour garantir un rendu élégant, moderne et fidèle à votre univers.
+              <br /><br />
+              Chaque vidéo est pour moi l'occasion de sublimer un message, raconter une histoire et créer une expérience mémorable.
             </p>
           </ScrollView>
         </div>
         <ScrollView>
-          <Image
-            className="rounded-(--radius) grayscale-75 object-cover aspect-[16/9] w-full"
-            src="/images/office.jpeg"
-            alt="team image"
-            height="480"
-            width="720"
-            loading="lazy"
-          />
-        </ScrollView>
-        <ScrollView>
-          <div className="relative mx-auto grid grid-cols-2 gap-x-3 gap-y-6 sm:gap-8 lg:grid-cols-4">
+          <div className="mt-12 mb-8">
+            <h3 className="text-3xl font-semibold mb-12 text-center">Ma philosophie</h3>
+          </div>
+          <div className="relative mx-auto grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
             {ourPrinciples.map((principle, index) => (
-              <div className="space-y-3" key={index}>
-                <div className="flex items-center gap-2">
-                  <Circle className="size-4" />
-                  <h3 className="text-sm font-medium">{principle.title}</h3>
+              <div className="space-y-4" key={index}>
+                <div className="flex items-center gap-3">
+                  <Circle className="size-5" />
+                  <h3 className="text-base font-semibold">{principle.title}</h3>
                 </div>
-                <p className="text-muted-foreground text-sm">
+                <p className="text-muted-foreground text-sm leading-relaxed">
                   {principle.description}
                 </p>
               </div>

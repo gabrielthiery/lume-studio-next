@@ -1,15 +1,11 @@
 export const FOOTER_LINKS = [
   {
-    title: "Home",
+    title: "Accueil",
     href: "/",
   },
   {
-    title: "About",
+    title: "À propos",
     href: "#about",
-  },
-  {
-    title: "Team",
-    href: "#team",
   },
   {
     title: "Services",
@@ -20,7 +16,11 @@ export const FOOTER_LINKS = [
     href: "#portfolio",
   },
   {
-    title: "Testimonials",
+    title: "Témoignages",
     href: "#testimonials",
+  },
+  {
+    title: "Contact",
+    href: "#contact",
   },
 ];

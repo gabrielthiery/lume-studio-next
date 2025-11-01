@@ -9,14 +9,13 @@ export default function Testimonials() {
         <div className="relative z-10 mx-auto max-w-xl space-y-6 text-center md:space-y-12">
           <ScrollView>
             <h2 className="text-4xl font-medium lg:text-5xl">
-              Build by makers, loved by thousand developers
+              Témoignages Clients
             </h2>
           </ScrollView>
           <ScrollView delay={0.2}>
             <p>
-              Gemini is evolving to be more than just the models. It supports an
-              entire to the APIs and platforms helping developers and businesses
-              innovate.
+              Découvrez ce que disent mes clients sur notre collaboration et
+              les résultats obtenus sur leurs projets vidéo.
             </p>
           </ScrollView>
         </div>
